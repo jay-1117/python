@@ -1,0 +1,83 @@
+Module – 3 (Collections, functions and Modules)
+
+Q-1.What is List? How will you reverse a list?
+
+-->In programming, a list is a data structure that stores a collection of items, where each item has a specific position or index within the list. 
+-->Lists are widely used because they are flexible and can contain elements of different data types
+
+-->To reverse a list :-
+1.By reverse method
+2.By using slicing with a step parameter of -1 i.e (my_list[::-1])
+
+Q-3.Differentiate between append () and extend () methods?
+
+-->append():
+1.The append() method is used to add a single element to the end of a list.
+2.It takes one argument, which is the element to be added.
+3.After appending, the length of the list increases by one.
+4.If you want to add multiple elements to the list, you have to call append() for each element separately.
+
+extend():
+The extend() method is used to add multiple elements to the end of a list.
+It takes an iterable (e.g., another list, tuple, or any other iterable) as its argument.
+It iterates over the elements of the iterable and adds each element to the end of the list.
+The length of the list increases by the number of elements in the iterable passed to extend()
+
+Q-5.How will you compare two lists?
+-->To compare two list:-
+1.comparision operators is used.
+2.sorted function.(it ignore the order)
+3.Is to convert it into set and compare(it ignore the order)
+
+Q-16.What is tuple? Difference between list and tuple.
+
+-->Tuples are used to store multiple items in a single variable.
+-->A tuple is a collection which is ordered and unchangeable.
+-->Tuples are written with round brackets.
+-->Tuple items are ordered, unchangeable, and allow duplicate values.
+-->Tuples are defined as objects with the data type 'tuple'
+
+LIST
+1.Lists are mutable
+2.The implication of iterations is Time-consuming	
+3.The list is better for performing operations, such as insertion and deletion.
+4.Lists consume more memory
+5.Lists have several built-in methods
+6.Unexpected changes and errors are more likely to occur
+
+Tuple
+
+1.Tuples are immutable
+2.The implication of iterations is comparatively Faster
+3.A Tuple data type is appropriate for accessing the elements
+4.Tuple consumes less memory as compared to the list
+5.Tuple does not have many built-in methods.
+6.Because tuples don’t change they are far less error-prone.
+
+
+Q-33.How Do You Check The Presence Of A Key In A Dictionary?
+-->1.Using the in operator
+-->2.Using the get() method
+
+Q-49.How Many Basic Types Of Functions Are Available In Python?
+
+-->In Python, there are three basic types of functions:
+1.Built-in Functions
+2.User-defined Functions
+3.Anonymous Functions (Lambda Functions)
+
+Q-50.How can you pick a random item from a list or tuple?
+-->In Python, you can use the random. choice() function to pick a random item from a list or tuple. 
+
+Q-51.How can you pick a random item from a range?
+
+-->To pick a random item from a range in Python, you can first convert the range to a list and then use the random.choice() function to select a random item from that list.
+
+Q-52.How can you get a random number in python?
+-->In Python, you can generate random numbers using the random module
+
+Q-53.How will you set the starting value in generating random numbers?
+-->In Python, you can set the starting value (also known as the seed) for generating random numbers using the random. seed() function from the random module. 
+
+Q-54.How will you randomizes the items of a list in place?
+-->To randomize the items of a list in place, you can use the random.shuffle() function from the random module. 
