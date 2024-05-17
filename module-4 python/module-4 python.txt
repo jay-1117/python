@@ -1,0 +1,36 @@
+Q-1 What is File function in python? What is keywords to create and write
+file.
+-->In Python, file handling is an essential part of working with data. The file handling functions allow you to create, read, update, and delete files.
+
+-->'w': Write mode. Opens a file for writing, creates the file if it does not exist, or truncates the file if it exists.
+-->'a': Append mode. Opens a file for writing, creates the file if it does not exist, and appends content to the file if it exists.
+-->'x': Exclusive creation mode. Creates a file, returns an error if the file exists.
+
+13.Explain Exception handling? What is an Error in Python?
+-->Exception handling is a mechanism in Python to handle errors gracefully. It allows the program to continue running or to terminate gracefully rather than crashing unexpectedly when an error occurs. This is accomplished using the try, except, else, and finally blocks.
+
+-->Errors in Python can be broadly classified into two categories: 
+1.Syntax Errors
+2.Exceptions.
+
+14.How many except statements can a try-except block have? Name Some built-in exception classes:
+
+-->In Python, a try-except block can have multiple except clauses to handle different types of exceptions. There is no strict limit on the number of except clauses you can have, so you can include as many as needed to handle different exceptions.
+
+ex:-
+1.BaseException: The base class for all built-in exceptions. It is not recommended to catch this exception directly, as it will also catch system-exiting exceptions such as SystemExit and KeyboardInterrupt.
+
+2.Exception: The base class for all non-exiting exceptions. Most built-in exceptions are derived from this class.
+
+3.ArithmeticError: The base class for all errors related to arithmetic operations.
+
+i.OverflowError: Raised when the result of an arithmetic operation is too large to be represented.
+ii.ZeroDivisionError: Raised when division or modulo by zero takes place.
+iii.FloatingPointError: Raised when a floating-point operation fails.
+
+
+4.AttributeError: Raised when an attribute reference or assignment fails.
+
+5.EOFError: Raised when the input() function hits an end-of-file condition (EOF) without reading any data.
+
+
